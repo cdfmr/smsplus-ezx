@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cp bin/smsplus /mnt/e680/diska/
+

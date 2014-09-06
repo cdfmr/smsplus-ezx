@@ -1,0 +1,39 @@
+[Dir cpu]
+Dirs=
+Files=cpuintrf.h/memory.h/osd_cpu.h/z80.c/z80daa.h/z80.h
+
+[Dir docs]
+Dirs=
+Files=changelog/compatability.txt/in_vgm source readme.txt/license/porting.txt/readme.txt/source.txt
+
+[Dir dos]
+Dirs=
+Files=blit.c/blit.h/blur.h/blur.s/config.c/config.h/expand.s/input.c/input.h/main.c/main.h/osd.h/sealintf.c/sealintf.h/ui.c/ui.h/video.c/video.h
+
+[Dir ezx]
+Dirs=
+Files=qmainapp.cpp/qmainapp.h/qmainwnd.cpp/qmainwnd.h/qsmsplus.c/qsmsplus.h/qspthread.cpp/qspthread.h
+
+[Dir smsplus]
+Dirs=
+Files=README/smsplus.desktop/smsplus.sh/COPYING
+
+[Dir sound]
+Dirs=
+Files=2413tone.h/emu2413.c/emu2413.h/fmintf.c/fmintf.h/sn76489.c/sn76489.h/sound.c/sound.h/stream.c/stream.h/vrc7tone.h/ym2413.c/ym2413.h
+
+[Dir spfe]
+Dirs=
+Files=copy2ezx/Makefile/spfe.cpp
+
+[Dir zlib]
+Dirs=
+Files=unzip.c/unzip.h/zconf.h/zlib.h
+
+[Project Dir]
+Dirs=cpu/docs/ezx/sound/smsplus/spfe/zlib
+Files=error.c/error.h/fileio.c/fileio.h/hvc.h/loadrom.c/loadrom.h/macros.h/Makefile/memz80.c/memz80.h/pio.c/pio.h/render.c/render.h/shared.h/sms.c/sms.h/state.c/state.h/system.c/system.h/types.h/vdp.c/vdp.h/copy2ezx/makempkg
+
+[Project File]
+Name=SMS Plus for EZX
+Type=Default

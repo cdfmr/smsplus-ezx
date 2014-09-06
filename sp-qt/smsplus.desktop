@@ -1,0 +1,9 @@
+[Desktop Entry]
+BigIcon=smsplus.png
+Comment=Sega Master System / Game Gear Emulator
+Exec=spfe
+Icon=smsplus-sm.png
+Name=SMS Plus
+OsVersion=1.0
+Shared=0
+Type=Application

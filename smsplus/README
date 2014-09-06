@@ -1,0 +1,119 @@
+THIS DOCUMENTATION IS ENCODED IN UTF-8
+
+
+SMS Plus / EZX: Sega Master System / Game Gear Emulator for EZX
+---------------------------------------------------------------
+
+Current Version: 1.1
+
+------------------------- Command Line ------------------------
+
+SMS Plus / EZX v1.1 (Build on Feb  9 2006)
+Copyright (C) 1998-2004 Charles MacDonald
+Copyright (C) 2005-2006 Lin Fan (EZX Port)
+
+Usage: ./smsplus <filename> [--options]
+Options:
+  --japan                set the machine type as DOMESTIC instead of OVERSEAS.
+  --fullscreen           stretch video to fit the screen.
+  --volume <0-10>        set volume.
+  --mute                 disable sound.
+  --enablefm             enable YM2413 sound.
+  --keymap <0-3>         set different key map.
+
+
+-------------------- English Documentation --------------------
+
+Attention: the emulator exits when it lose input focus, such as
+           incoming call, low battery warning, etc.
+
+
+How to use:
+
+1) Install the MPKG package.
+2) Put your game roms in /mmc/mmca1/Game/SMS.GG, or you can
+   modify smsplus.cfg to change the path.
+3) Read this document carefully before playing.
+
+
+Control Keys:
+
+Save State:		Send
+Load State:		Power
+Fullscreen:		Down Volume
+Increase Volume:	Hold Select + Up Volume
+Decrease Volume:	Hold Select + Down Volume
+Reset VM:		Hold Select + Camera
+Take Screenshot:	Camera
+Quit:			Hold Up Volume + Hold Down Volume + Select
+
+
+Game Console Keys (4 different key mappers):
+
+Key Mapper 0:
+Up Volume:	Pause(SMS) / Start(GG)
+Real Player:	Key 1
+FM Radio:	Key 2
+
+Key Mapper 1:
+Up Volume:	Pause(SMS) / Start(GG)
+Real Player:	Key 2
+FM Radio:	Key 1
+
+Key Mapper 2:
+Up Volume:	Key 2
+Real Player:	Key 1
+FM Radio:	Pause(SMS) / Start(GG)
+
+Key Mapper 3:
+Up Volume:	Key 1
+Real Player:	Key 2
+FM Radio:	Pause(SMS) / Start(GG)
+
+
+-------------------- Chinese Documentation --------------------
+
+注意：模拟器失去输入焦点时会自动退出，比如来电时、出现低电量警
+      告时。请注意存档。
+
+
+如何使用：
+
+1) 安装MPKG包；
+2) 把游戏ROM放到/mmc/mmca1/Game/SMS.GG目录中，可修改smsplus.cfg
+   文件以改变游戏路径；
+3) 仔细阅读本文档。
+
+功能键：
+
+存档：		接听键
+取档：		挂断键
+全屏：		下音量键
+增大音量：	按住确定键 + 上音量键
+减小音量：	按住确定键 + 下音量键
+复位：		按住确定键 + 相机键
+截图：		相机键
+退出：		按住上音量键 + 按住下音量键 + 确定键
+
+
+游戏控制键可设置，共有4种方案：
+
+默认(方案0)：
+音量加：暂停(SMS) / 开始(GG)
+播放器：按钮1
+收音机：按钮2
+
+方案1：
+音量加：暂停(SMS) / 开始(GG)
+播放器：按钮2
+收音机：按钮1
+
+方案2：
+音量加：按钮2
+播放器：按钮1
+收音机：暂停(SMS) / 开始(GG)
+
+方案3：
+音量加：按钮1
+播放器：按钮2
+收音机：暂停(SMS) / 开始(GG)
